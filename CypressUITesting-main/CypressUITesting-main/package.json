@@ -1,0 +1,24 @@
+{
+  "name": "cypressuitesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cypress run --browser chrome --headed",
+    "opencypress": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0"
+  },
+  "dependencies": {
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
